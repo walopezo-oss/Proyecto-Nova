@@ -1,0 +1,23 @@
+entero edad;
+decimal promedio;
+texto nombre;
+booleano activo;
+
+edad = 20;
+promedio = 85.5;
+nombre = "Wesley";
+activo = verdadero;
+
+imprimir(edad);
+imprimir(promedio);
+imprimir(nombre);
+
+si edad > 18 entonces
+    imprimir("Mayor de edad");
+sino
+    imprimir("Menor de edad");
+fin
+
+mientras edad < 25 hacer
+    edad = edad + 1;
+fin

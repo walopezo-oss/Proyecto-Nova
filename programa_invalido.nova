@@ -1,0 +1,8 @@
+entero edad;
+texto nombre;
+
+edad = 20
+nombre = "Wesley";
+
+si edad > 18 entonces
+    imprimir(nombre);
